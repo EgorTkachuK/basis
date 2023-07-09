@@ -1,0 +1,119 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+main{
+    font-family: "playfair disply";
+}
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+} */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+.container{
+    width: 906px;
+    margin: 0 auto;
+}
+header{
+   
+   
+font-family: Playfair Display;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background-color: yellow;
+}
+.nav{
+    padding-top: 70px;
+        padding-right: 140px;
+        padding-bottom: 70px;
+        padding-left: 140px;
+        /* padding: 70px 140px; */
+}
+.nav-item{
+    margin-left: 100px;
+    display: inline;
+}
+.nav-item:first-child{
+    margin-left: 0;
+}
+.nav-item-link{
+    color: #7D7D7D;
+}
+.nav-item:hover .nav-item-link{
+    color: #03A9F4;
+}
+.photo-blog{
+    margin-top: 20px;
+    font-family: "playfair display";
+    font-weight: 400;
+    line-height: normal;
+    color: #626262;
+}
+.photo-blog-subtitle{
+    margin-top: 62px;
+    color: #B4AD9E;
+        font-family: Ubuntu;
+        font-size: 14px;
+        font-weight: 300;
+}
+.photo-blog-title{
+    margin-top: 32px;
+        font-size: 30px;
+}
+.photo-blog-text{
+    margin-top: 40px;
+        font-size: 14px;
+}
+.photo-blog-item{
+    display: inline-block;
+    width: 420px;
+    height: 546px;
+}
+.photo-blog-item:not(:nth-child(2n)){
+    margin-right: 62px;
+}
+.photo-blog-item:not(:nth-last-child(-n+2)){
+    margin-bottom: 126px;
+}
